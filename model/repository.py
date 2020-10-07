@@ -25,7 +25,7 @@ class Repository(object):
 
         if self.url.startswith(GITHUB_REPO_PREFIX):
             repo_path = self.url[len(GITHUB_REPO_PREFIX):]
-            if token != "none":
+            if token is not None:
               repo_info = requests.get('%s%s' % (GITHUB_API, repo_path), headers=header)
             else: #make an unauthenticated request - Github limits to 60 requests
               repo_info = requests.get('%s%s' % (GITHUB_API, repo_path))
