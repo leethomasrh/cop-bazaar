@@ -27,6 +27,8 @@ categories:
 
 # repositories in alphabetic order
 repositories:
+- url: https://github.com/aetest/test
+  categories: [ ocp_install ]
 - url: https://github.com/aglenn360/ocp4_aws_upi_tf
   categories: [ ocp_install ]
 - url: https://github.com/alexgdmx/ocp4-vmware-terraform
