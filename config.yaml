@@ -24,11 +24,12 @@ categories:
 - name: test-cicd3
   title: test 3 CI/CD
   desc: Test 3 CI/CD on OpenShift using Jenkins, Tekton, Argo CD, or other technologies. Automation and sample code for creating CI/CD pipelines.
+- name: test-cicd4
+  title: test 4 CI/CD
+  desc: Test 4 CI/CD on OpenShift using Jenkins, Tekton, Argo CD, or other technologies. Automation and sample code for creating CI/CD pipelines
 
 # repositories in alphabetic order
 repositories:
-- url: https://github.com/aetest/aetest
-  categories: [ ocp_install ]
 - url: https://github.com/aglenn360/ocp4_aws_upi_tf
   categories: [ ocp_install ]
 - url: https://github.com/alexgdmx/ocp4-vmware-terraform
